@@ -1,0 +1,142 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    border: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+      /* display: flex; 
+      flex-direction: row;
+      justify-content: space-around; */
+      padding: 20px;    
+      list-style: none;
+      color: #859098;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+li:hover{
+    color: red;
+}
+
+.pra{
+    text-align: center;
+    line-height: 60px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(premium_photo-1661915282028-ecec0eafd746.avif);
+   height: 600px;
+   background-size: cover;
+   background-repeat: no-repeat;
+    width: auto;
+    background-position: center;
+}
+.textbox input{
+    height: 60px;
+    width: 300px;
+    border: 0px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+}
+.textbox label{
+   
+    /* background: transparent; */
+    color: black;
+    font-size: 15px;
+    
+}
+
+button{
+    height: 65px;
+    width: 105px;
+    background-color:#ff545a;
+    color: #fff;
+    
+}
+
+.textbox1{
+    /* border: 2px solid black; */
+    border-top: 2px solid rgb(243, 241, 241);
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0px 10px 0px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    
+}
+.textbox2{
+    /* border: 2px solid black; */
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0px 10px 0px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    background-color: white; 
+}
+
+.search{
+    margin-left: 40px; 
+   
+}
+
+.search:hover {
+    scale: 1.1;
+}
+
+.p{
+    font-size: 25px;
+    color: #fcfcfc;
+    margin-top: 25px;
+    
+}
+
+.h{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 1.4;
+}
+
+
