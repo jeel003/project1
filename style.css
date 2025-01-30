@@ -1,6 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    font-family: "Poppins", serif;
 }
 
 .logo{
@@ -144,7 +145,7 @@ li:hover{
     width: 204px; 
     background-color: #fff;
     box-shadow: 1px 3px 5px ;
-     /* transition: .3s linear;   */
+     transition: .3s linear;
 }
 
  .box1c {
@@ -166,6 +167,7 @@ i{
     width: 204px; 
     background-color: #fff;
     box-shadow: 1px 3px 5px ;
+    transition: .3s linear;
 }
 
 .box2c {
@@ -181,6 +183,7 @@ i{
     width: 204px; 
     background-color: #fff;
     box-shadow: 1px 3px 5px ;
+    transition: .3s linear;
  }
  
  .box3c{
@@ -196,6 +199,7 @@ i{
     width: 204px; 
     background-color: #fff;
     box-shadow: 1px 3px 5px ;
+    transition: .3s linear;
  }
 
  .box4c{
@@ -211,6 +215,7 @@ i{
     width: 204px; 
     background-color: #fff;
     box-shadow: 1px 3px 5px ;
+    transition: .3s linear;
  }
 
  .box5c{
@@ -371,32 +376,276 @@ i{
     color: #505866;
 }
  .nbox1{
-    border: 2px solid black;
-   height: 600px;
-   width: 350px;
+    border: 2px solid whitesmoke;
+   height: 540px;
+   width: 400px;
+   text-align: center;
+   padding: 0px 0px 15px 0px;
    
 } 
 
 .nimg1 img{
-    height: 345px;
-    width: 350px;
-}
+    height: 280px;
+    width: 400px;
+} 
 
 .date1{
     display: flex;
     flex-direction: row;
+    justify-content:center;  
 }
 
 .border{
-    border-right: 1px solid black;
-    padding-right: 8px;
+     border-right: 1px solid black;
+    padding-right: 12px; 
+    color: #767f86;
+}
+.border b{
+    color: black;
 }
 
 .border1{
-    padding-left: 8px;
+    padding-left: 12px; 
+    color: #767f86;
 }
+
+.npra1{
+    color: #767f86;
+}
+
+.nbox2{
+    border: 2px solid whitesmoke;
+    height: 540px;
+    width: 400px;
+   text-align: center;
+   padding: 0px 0px 15px 0px;
+   
+} 
+
+.awesom:hover{
+    color: red;
+}
+
+
+
+.date2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.npra2{
+    color: #767f86;
+}
+
+.nbox3{
+    border: 2px solid whitesmoke;
+    height: 540px;
+    width: 400px;
+   text-align: center;
+   padding: 0px 0px 15px 0px;
+   
+} 
+
+.nimg3 img{
+    height: 280px;
+    width: 330px;
+} 
+
+.date3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.npra3{
+    color: #767f86;
+}
+
+.nbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-bottom: 50px;
+}
+
+.nbox1:hover{
+    box-shadow: 2px 2px 10px;
+}
+.nbox2:hover{
+    box-shadow: 2px 2px 10px; 
+}
+.nbox3:hover{
+    box-shadow: 1px 1px 10px; 
+}
+
+.bl{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.bl1{
+    text-align: center;
+    font-size: 20px;
+    color: #7b8088;
+    margin-bottom: 50px;
+
+}
+
+.inputform{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form{
+   
+}
+
+.inputform input{
+    height: 50px;
+    width: 400px;
+    margin: 20px 0px 20px 0px;
+    background-color: white;
+    border: 0px;
+    outline: none;
+    box-shadow: 0px 0px 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form input:hover{
  
- 
+    box-shadow: 0px 0px 15px;
+}
+
+
+
+.fm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://thumbs.dreamstime.com/b/registration-hand-pressing-button-interface-blue-background-49410297.jpg);
+    background-repeat: no-repeat;
+    background-color:#012148;
+   
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+iframe{
+   
+    box-shadow: 0px 0px 20px white;
+}
+
+iframe:hover{
+   
+    box-shadow: 0px 0px 40px white;
+    scale: 1.1;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.logomain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number{
+    margin-right: 40px;
+}
+.number:hover{
+    color: #ff545a;
+}
+.fa-phone{
+    font-size: 20px;
+}
+
+.fa-copyright{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.logos{
+    
+
+}
+.fa-facebook{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa-twitter{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa-linkedin{
+    padding: 10px;
+    font-size: 20px;
+}
+.fa-google-plus-g{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#i1:hover{
+    color: #ff545a;
+}
+#i2:hover{
+    color: #ff545a;
+}
+#i3:hover{
+    color: #ff545a;
+}
+#i4:hover{
+    color: #ff545a;
+}
+
+
+#i1{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-color: #eef2f6;;
+    margin-right: 15px;
+}
+#i2{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-color: #eef2f6;
+    margin-right: 15px;
+}
+
+#i3{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-color: #eef2f6;
+    margin-right: 15px;
+
+}
+#i4{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-color: #eef2f6;
+    margin-right: 15px;
+}
 
  
  
